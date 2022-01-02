@@ -1,0 +1,4 @@
+export const CREATE_FISH = 'CREATE_FISH';
+export const DELETE_FISH = 'DELETE_FISH';
+export const RETRIEVE_FISHIES = 'RETRIEVE_FISHIES';
+export const UPDATE_FISH = 'UPDATE_FISH';
