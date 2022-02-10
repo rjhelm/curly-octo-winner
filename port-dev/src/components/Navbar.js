@@ -81,7 +81,7 @@ const Nav = styled(motion.nav)`
   }
 `;
 
-export default function Navbar() {
+const Navbar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [element, controls] = useScroll();
     const html = document.querySelector('html');
@@ -139,3 +139,5 @@ export default function Navbar() {
         </Nav>
     );
 }
+
+export default Navbar;
