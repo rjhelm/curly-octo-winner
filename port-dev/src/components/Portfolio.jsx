@@ -279,7 +279,7 @@ const Portfolio = () => {
                 <img src={" "} alt="Load More" />
             </div>
         </Section>
-    )
+    );
 }
 
 export default Portfolio;
