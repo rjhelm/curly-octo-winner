@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import ScrollToTop from './components/ScrollToTop';
+import Skills from './components/Skills';
+import React from 'react';
+import { motion } from 'framer-motion';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <motion.div initial="hidden" animate="show">
+      <ScrollToTop />
+      <Home />
+      <Portfolio />
+      <Skills />
+      <Blog />
+      <Contact />
+      <Footer />
+    </motion.div>
   );
 }
 

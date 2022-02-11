@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { FaCheveronUp } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
 
 const Div = styled.div`
   max-width: 100vw;
@@ -39,7 +39,7 @@ const ScrollToTop = () => {
     return (
         <Div>
             <a href="#" className={`${visible ? "block" : "none"}`}>
-                <FaCheveronUp />
+                <FaChevronUp />
             </a>
         </Div>
     );

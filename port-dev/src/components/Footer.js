@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { BsBehance, BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 import { useScroll } from "./useScroll";
-import { footerLogoAnimations, footerTextAnimations } from "animations";
+import { footerLogoAnimations, footerTextAnimations } from "../animation";
 import { motion } from "framer-motion";
 
 const Foot = styled.footer`

@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
 import styled from 'styled-components';
-// import home from "assets/home.png";
-// import play from "assets/play.png";
+import home from "../assets/home.jpg";
+import me from "../assets/ryanjdev.png";
 import { motion } from "framer-motion";
-import { homeAnimation, homeInfoAnimation } from "animations";
+import { homeAnimation, homeInfoAnimation } from "../animation";
 
 const Section = styled.section`
-  background-image: url(${" "});
+  background-image: url(${home});
   background-size: cover;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ const Home = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                         </p>
                     </div>
-                    <img src={" "} alt="Play Button" />
+                    <img src={me} alt="" />
                 </div>
 
             </motion.div>

@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { GitHamburgerMenu } from 'react-icons/gi';
+import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import { motion } from 'framer-motion';
-import { navAnimation } from 'animations';
+import { navAnimation } from '../animation';
 import { useScroll } from './useScroll';
+import logo from '../assets/dev-logo.png';
 
 const Nav = styled(motion.nav)`
     display: flex;
@@ -97,14 +98,14 @@ const Navbar = () => {
         >
             <div className="brand__container">
                 <a href="#" className="brand">
-                    <img src={" "} alt="logo" />
+                    <img src={logo} alt="logo" />
                 </a>
                 <div className="toggle">
                     {
                         isNavOpen ? (
                             <MdClose onClick={() => setIsNavOpen(false)} />
                         ) : (
-                            <GitHamburgerMenu
+                            <GiHamburgerMenu
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     setIsNavOpen(true);
@@ -118,9 +119,6 @@ const Navbar = () => {
                 <ul>
                     <li className='active'>
                         <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
                     </li>
                     <li>
                         <a href="#portfolio">Portfolio</a>
