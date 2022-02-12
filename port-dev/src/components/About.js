@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { Title } from "./Title";
+import Title  from "./Title";
 import { useScroll } from "./useScroll";
-import { aboutAnimations } from "../animation";
+import { servicesAnimations } from "../animation";
 
 const Section = styled.section`
     min-height: 100vh;
@@ -87,7 +87,7 @@ const About = () => {
                         <motion.div
                             className="about__item"
                             key={about.type}
-                            variants={aboutAnimations}
+                            variants={servicesAnimations}
                             animate={controls}
                             transition={{
                                 delay: 0.3,

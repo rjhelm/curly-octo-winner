@@ -1,6 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 
+const Title = ({ value }) => {
+  return (
+    <Div className="sideTitle">
+      <h1>{value}</h1>
+    </Div>
+  );
+}
+
 const Div = styled.div`
   position: relative;
   h1 {
@@ -15,13 +23,5 @@ const Div = styled.div`
     }
   }
 `;
-
-const Title = ({ value }) => {
-    return (
-        <Div className="sideTitle">
-            <h1>{value}</h1>
-        </Div>
-    );
-}
 
 export default Title;

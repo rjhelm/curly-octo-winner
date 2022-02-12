@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import styled from 'styled-components';
 import home from "../assets/home.jpg";
-import me from "../assets/ryanjdev.png";
+import me from "../assets/DLRN.png";
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "../animation";
 

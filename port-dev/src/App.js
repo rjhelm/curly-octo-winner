@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import ScrollToTop from './components/ScrollToTop';
 import Skills from './components/Skills';
 import React from 'react';
+import About from './components/About';
 import { motion } from 'framer-motion';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Home />
       <Portfolio />
       <Skills />
+      <About />
       <Blog />
       <Contact />
       <Footer />

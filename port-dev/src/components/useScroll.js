@@ -1,5 +1,6 @@
-import { useInView } from 'react-intersection-observer';
-import { useAnimation } from 'framer-motion';
+
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
 
 export const useScroll = (thresh = 0.1) => {
     const controls = useAnimation();
@@ -11,5 +12,5 @@ export const useScroll = (thresh = 0.1) => {
         controls.start("hidden");
     }
 
-    return [element, controls]
+    return [element, controls];
 };

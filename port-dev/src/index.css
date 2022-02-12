@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --primary-color: #8141BE;
-  --secondary-color: #7EBE41;
+  --primary-color: #6926a7;
+  --secondary-color: #000000;
   --font-family: 'Poppins', sans-serif;
 }
 
@@ -15,21 +15,22 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
-
 @media screen and (min-width: 280px) and (max-width: 1080px) {
   body::-webkit-scrollbar {
     display: none;
   }
 }
 
-body, button {
+body,
+button {
   font-family: var(--font-family);
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 ::-webkit-scrollbar {
