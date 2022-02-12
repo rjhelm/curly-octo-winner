@@ -4,6 +4,7 @@ import Title from "./Title";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { portfolioAnimation } from "../animation";
+import Microlink from "@microlink/react";
 // import placeholder from "assets/placeholder.png";
 // import loadmore from "assets/loadmore.png";
 // import portfolio1 from "assets/portfolio1.png";
@@ -180,7 +181,7 @@ const Portfolio = () => {
                     }}
                     whileInView={{ opacity: 1 }}
                 >
-                    <img src={" "} alt="portfolio" />
+                    ${'' /* <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="portfolio" /> */}
                 </motion.div>
                 <motion.div
                     className="child-two grid-box"
@@ -193,7 +194,8 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src={" "} alt="placeholder" />
+                <Microlink url="https://ryanjdev-newsfeed.herokuapp.com/" />
+                    ${'' /* <img src="https://ryanjdev-newsfeed.herokuapp.com/" alt="placeholder" /> */}
                 </motion.div>
                 <motion.div
                     className="child-three grid-box"
