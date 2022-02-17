@@ -181,8 +181,7 @@ const Portfolio = () => {
                     }}
                     whileInView={{ opacity: 1 }}
                 >
-                <Microlink url="https://decentralizedlearning.network/" />
-                    ${'' /* <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="portfolio" /> */}
+                    <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="Blogging Python app" />
                 </motion.div>
                 <motion.div
                     className="child-two grid-box"
@@ -195,8 +194,8 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                <Microlink url="https://ryanjdev-newsfeed.herokuapp.com/" />
-                    ${'' /* <img src="https://ryanjdev-newsfeed.herokuapp.com/" alt="placeholder" /> */}
+                
+                    <img src="https://github.com/rjhelm/mtg-social/raw/main/assets/homepage.PNG?raw=true" alt="MTG Social Site" />
                 </motion.div>
                 <motion.div
                     className="child-three grid-box"
@@ -209,7 +208,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <Microlink url="https://socialist-loonie-29332.herokuapp.com/" />
+                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true"  alt="DLRN ICO" />
                 </motion.div>
                 <motion.div
                     className="child-four grid-box"
@@ -222,7 +221,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src={" "} alt="placeholder" />
+                    <img src="https://github.com/rjhelm/tech-blog/blob/main/assets/images/tech-blog.PNG?raw=true" alt="Blog App w/ Node | Express" />
                 </motion.div>
                 <motion.div
                     className="child-five grid-box"
@@ -235,7 +234,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src={" "} alt="" />
+                    <img src="https://github.com/rjhelm/note-taking-app/raw/main/public/assets/images/notes-shot.PNG?raw=true" alt="Note Taking App" />
                 </motion.div>
                 <motion.div
                     className="child-six grid-box"
@@ -248,7 +247,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src={" "} alt="" />
+                    <img src="https://github.com/rjhelm/snek-game/raw/main/assets/images/screenshot.PNG" alt="Snake Game Javascript" />
                 </motion.div>
                 <motion.div
                     className="child-seven grid-box"
@@ -261,7 +260,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src={" "} alt="" />
+                    <img src="https://github.com/rjhelm/weather-dashboard/raw/main/assets/imgs/weather.PNG" alt="Weather App JS | HTML" />
                 </motion.div>
                 <motion.div
                     className="child-eight grid-box"
@@ -274,7 +273,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src={" "} alt="" />
+                    <img src="https://github.com/rjhelm/pickle-rick/raw/main/ricky-wiki/assets/imgs/homepage.png?raw=true" alt="Rick and Morty Wiki" />
                 </motion.div>
             </div>
             <div className="portfolio-more">
