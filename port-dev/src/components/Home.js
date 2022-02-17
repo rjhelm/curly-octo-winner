@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import styled from 'styled-components';
 import home from "../assets/home.jpg";
-import me from "../assets/DLRN.png";
+import me from "../assets/ryanjdev.png";
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "../animation";
 
@@ -90,10 +90,10 @@ const Home = () => {
                     </div>
                     <div className="subTitle">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            I am Ryan, I am a Web Developer and Student. I have a passion for Development and Technology.
                         </p>
                     </div>
-                    <img src={me} alt="" />
+                    <img src={me} alt="" height="290vh" width="450vw" />
                 </div>
 
             </motion.div>
@@ -104,21 +104,21 @@ const Home = () => {
             >
                 <div className="grid">
                     <div className="col">
-                        <strong>Placeholder</strong>
-                        <p>Another Placeholder</p>
+                        <strong>Ryan Helm</strong>
+                        <p>Student || Web Developer</p>
                     </div>
                     <div className="col">
                         <strong>Email</strong>
                         <p>ryjhelm@gmail.com</p>
                     </div>
                     <div className="col">
-                        <strong>Nope</strong>
-                        <p>Placeholder</p>
+                        <strong>Phone Number</strong>
+                        <p>801-918-9335</p>
                     </div>
                     <div className="col">
-                        <strong></strong>
-                        <p></p>
-                        <p></p>
+                        <strong>Located in:</strong>
+                        <p>Utah</p>
+                        <p>United States</p>
                     </div>
                     <div className="col">
                         <strong>Web Developer</strong>
