@@ -181,6 +181,7 @@ const Portfolio = () => {
                     }}
                     whileInView={{ opacity: 1 }}
                 >
+                <Microlink url="https://decentralizedlearning.network/" />
                     ${'' /* <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="portfolio" /> */}
                 </motion.div>
                 <motion.div
@@ -208,7 +209,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src={" "} alt="placeholder" />
+                    <Microlink url="https://socialist-loonie-29332.herokuapp.com/" />
                 </motion.div>
                 <motion.div
                     className="child-four grid-box"
