@@ -63,18 +63,18 @@ const About = () => {
     const [element, controls] = useScroll();
     const data = [
         {
-            type: "placeholder",
-            text: "lore ipsum",
+            type: "aboutme",
+            text: "I am a Web Developer, I completed the University of Utah Full Stack Web Development Bootcamp. I am also currently in school studying Computer Science. I am a passionate developer and I love to create beautiful websites and applications.",
             image: "https://via.placeholder.com/300x300",
         },
         {
-            type: "placeholder",
-            text: "lore ipsum",
+            type: "languagesprograms",
+            text: "I learned to program using HTML, CSS, JavaScript, React, NodeJS, Express, MySQL, and MongoDB. I have since worked with Python, Java, C++, React Native, .NET, and Apache.",
             image: "https://via.placeholder.com/300x300",
         },
         {
-            type: "placeholder",
-            text: "lore ipsum",
+            type: "tools",
+            text: "I use InteliJ, Visual Studio Code, and Git. I have experience with AWS and Docker. I use Windows, Mac, and Linux.",
             image: "https://via.placeholder.com/300x300",
         },
     ];
