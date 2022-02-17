@@ -159,19 +159,11 @@ const Skills = () => {
             amount: 90,
         },
         {
-            name: "NodeJS",
+            name: "NodeJS/Express",
             amount: 80,
         },
         {
-            name: "MySQL",
-            amount: 80,
-        },
-        {
-            name: "MongoDB",
-            amount: 80,
-        },
-        {
-            name: "Express",
+            name: "MySQL/MongoDB",
             amount: 80,
         },
         {
@@ -182,10 +174,7 @@ const Skills = () => {
             name: "C#",
             amount: 70,
         },
-        {
-            name: "React Native",
-            amount: 60,
-        },
+        
     ];
     return (
       <Section id="skills" ref={element}>

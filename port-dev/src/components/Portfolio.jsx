@@ -67,6 +67,8 @@ const Section = styled.section`
             cursor: pointer;
             img {
                 transition: 0.4s ease-in-out;
+                width: 100%;
+                height: 100%;
             }
             &:hover {
                 img {
@@ -181,7 +183,8 @@ const Portfolio = () => {
                     }}
                     whileInView={{ opacity: 1 }}
                 >
-                    <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="Blogging Python app" />
+                    
+                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true"  alt="DLRN ICO" />
                 </motion.div>
                 <motion.div
                     className="child-two grid-box"
@@ -208,7 +211,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true"  alt="DLRN ICO" />
+                <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="Blogging Python app" />
                 </motion.div>
                 <motion.div
                     className="child-four grid-box"
@@ -247,7 +250,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src="https://github.com/rjhelm/snek-game/raw/main/assets/images/screenshot.PNG" alt="Snake Game Javascript" />
+                <img src="https://github.com/rjhelm/weather-dashboard/raw/main/assets/imgs/weather.PNG" alt="Weather App JS | HTML" />
                 </motion.div>
                 <motion.div
                     className="child-seven grid-box"
@@ -260,7 +263,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src="https://github.com/rjhelm/weather-dashboard/raw/main/assets/imgs/weather.PNG" alt="Weather App JS | HTML" />
+                    <img src="https://github.com/rjhelm/snek-game/raw/main/assets/images/screenshot.PNG" alt="Snake Game Javascript" />
                 </motion.div>
                 <motion.div
                     className="child-eight grid-box"
