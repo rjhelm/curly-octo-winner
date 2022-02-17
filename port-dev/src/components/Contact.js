@@ -138,30 +138,27 @@ const Contact = () => {
                 }}
             >
                 <div className="contact__title">
-                    <p>Chat with Ryan</p>
-                    <h2>Contacto ipsam donec setem quia lipsum</h2>
+                    <p>Get in touch!</p>
+                    <h2>Thanks for taking a look!</h2>
                 </div>
                 <div className="contact__data">
                     <div className="contact__data__description">
-                        <h4>Use from on the right to contact us or just to say hi!</h4>
+                        <h4>Contact me using the form below!</h4>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
-                            nulla?
+                            I would love to hear from anyone with questions, critiques, or just to say hi!
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod
-                            molestias animi, ad quibusdam et accusantium nisi architecto at
-                            vitae
+                            You can also reach out to me using the social media links found on this page.
                         </p>
                         <div>
                             <p>
-                                <strong>Address:</strong> Some Street India
+                                <strong>Location</strong> Utah, USA
                             </p>
                             <p>
-                                <strong>Email:</strong> kishansheth21@gmail.com
+                                <strong>Email:</strong> ryjhelm@gmail.com
                             </p>
                             <p>
-                                <strong>Website:</strong> www.yourwebsite.com
+                                <strong>Website:</strong> ryjhelm.com
                             </p>
                         </div>
                     </div>

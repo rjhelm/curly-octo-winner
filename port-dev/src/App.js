@@ -14,9 +14,9 @@ const App = () => {
     <motion.div initial="hidden" animate="show">
       <ScrollToTop />
       <Home />
-      <Portfolio />
-      <Skills />
       <About />
+      <Skills />
+      <Portfolio />
       <Blog />
       <Contact />
       <Footer />
