@@ -16,6 +16,8 @@ const Nav = styled(motion.nav)`
   .brand__container {
     margin: 0 2rem;
     .brand {
+      display: flex;
+      align-items: center;
     }
     .toggle {
       display: none;
