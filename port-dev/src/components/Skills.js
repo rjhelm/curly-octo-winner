@@ -37,7 +37,7 @@ const Section = styled.section`
     p {
       text-transform: uppercase;
       letter-spacing: 0.2rem;
-      color: var(--primary-color);
+      color: var(--terticiary-color);
     }
     h2 {
       color: white;
@@ -77,7 +77,7 @@ const Section = styled.section`
               background-color: white;
             }
             &::-webkit-progress-value {
-              background-color: var(--primary-color);
+              background-color: var(--analogous-color);
             }
           }
         }
