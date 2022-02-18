@@ -8,7 +8,7 @@ import Microlink from "@microlink/react";
 // import placeholder from "assets/placeholder.png";
 // import loadmore from "assets/loadmore.png";
 // import portfolio1 from "assets/portfolio1.png";
-// import portfolio2 from "assets/portfolio2.png";
+import design1 from '../assets/portfolio1.png';
 
 const Section = styled.section`
     min-height: 100vh;
@@ -39,7 +39,7 @@ const Section = styled.section`
     .portfolio__title {
         margin: 6rem 15rem;
         p {
-            color: var(--primary-color);
+            color: var(--tertiary-color);
             text-transform: uppercase;
             letter-spacing: 0.2rem;
         }
@@ -164,7 +164,7 @@ const Portfolio = () => {
         <Section id="portfolio" ref={element} >
             <Title value="portfolio" />
             <div className="background">
-                <img src={" "} alt="design" className="design1" />
+                <img src={design1} alt="design" className="design1" />
                 <img src={" "} alt="design" className="design2" />
             </div>
             <div className="portfolio__title">

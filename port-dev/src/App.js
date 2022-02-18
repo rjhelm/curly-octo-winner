@@ -16,8 +16,8 @@ const App = () => {
       <Home />
       <About />
       <Skills />
-      <Portfolio />
       <Blog />
+      <Portfolio />
       <Contact />
       <Footer />
     </motion.div>

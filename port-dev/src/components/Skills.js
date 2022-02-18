@@ -37,7 +37,8 @@ const Section = styled.section`
     p {
       text-transform: uppercase;
       letter-spacing: 0.2rem;
-      color: var(--terticiary-color);
+      color: #000000;
+      text-size: 2rem;
     }
     h2 {
       color: white;
@@ -66,7 +67,8 @@ const Section = styled.section`
           span {
             text-transform: uppercase;
             letter-spacing: 0.2rem;
-            color: var(--primary-color);
+            color: #000000;
+            font-size: 1.2rem;
           }
           progress {
             width: 30rem;
@@ -77,7 +79,7 @@ const Section = styled.section`
               background-color: white;
             }
             &::-webkit-progress-value {
-              background-color: var(--analogous-color);
+              background-color: var(--tertiary-color);
             }
           }
         }
@@ -184,8 +186,8 @@ const Skills = () => {
         <img src={skills2} alt="skills design" className="design2" /> */}
       </div>
       <div className="skills__title">
-        <p>Our Skills</p>
-        <h2>Check our super awesome skills</h2>
+        <p>Skills</p>
+        <h2>My skills that I am always looking to improve upon or add to.</h2>
       </div>
       <div className="skills">
         <div className="skills__bars">
