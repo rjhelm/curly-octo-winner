@@ -9,7 +9,7 @@ import { useScroll } from "./useScroll";
 
 const Section = styled.section`
   min-height: 100vh;
-  height: 140vh;
+  height: 100vh;
   background-color: var(--secondary-color);
   .background {
     position: relative;
@@ -93,7 +93,7 @@ const Section = styled.section`
     &__content {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 1rem;
       color: white;
       z-index: 2;
       .title {
@@ -187,7 +187,7 @@ const Skills = () => {
       </div>
       <div className="skills__title">
         <p>Skills</p>
-        <h2>My skills that I am always looking to improve upon or add to.</h2>
+        <h2>My Programming Knowledge</h2>
       </div>
       <div className="skills">
         <div className="skills__bars">
@@ -216,12 +216,10 @@ const Skills = () => {
         </div>
         <div className="skills__content">
           <p className="title">
-            Lorem ipsum dolor, sit amet consectetur impedit?
+            I am always learning and adding to my programming skills.
           </p>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eius
-            cupiditate incidunt distinctio velit quos dolore, ut, tempore
-            suscipit impedit reiciendis voluptas, illo expedita! Necessitatibus!
+            I learned how to code using Javascript and React so my comfort level with these is higher but its a constant process to stay current. I branched out and have been working to understand Pyton, C#, Java, and PHP. I have been able to expand my knowledge so that I can handle a broad range of work. The most important thing is I love programming and it's exciting to me when I get to pick up something new or something I already have an understanding of.
           </p>
         </div>
       </div>

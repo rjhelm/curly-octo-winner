@@ -38,7 +38,7 @@ const ScrollToTop = () => {
     });
     return (
         <Div>
-            <a href="#" className={`${visible ? "block" : "none"}`}>
+            <a href="/" className={`${visible ? "block" : "none"}`}>
                 <FaChevronUp />
             </a>
         </Div>

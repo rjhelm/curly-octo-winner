@@ -5,6 +5,7 @@ import home from "../assets/home.jpg";
 import me from "../assets/ryanjdev.png";
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "../animation";
+import Hero from "./Hero/Hero";
 
 const Section = styled.section`
   background-image: url(${home});
@@ -16,7 +17,7 @@ const Section = styled.section`
   .home {
     height: 100%;
     .content {
-      height: 100%;
+      height: 80%;
       color: white;
       display: flex;
       flex-direction: column;
@@ -29,12 +30,15 @@ const Section = styled.section`
         h1 {
           font-size: 5rem;
           line-height: 5.3rem;
+          color: var(--primary-color);
         }
       }
       .subTitle {
         p {
           width: 70%;
           margin-bottom: 2rem;
+          font-size: 1.5rem;
+          color: white;
         }
       }
     }
@@ -79,11 +83,16 @@ const Home = () => {
     return (
         <Section id="home">
             <Navbar />
+            
             <motion.div
                 variants={homeAnimation}
                 transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
                 className="home"
+                loading="lazy"
             >
+            <div className="content">
+              <Hero />
+            </div>
                 <div className="content">
                     <div className="title">
                         <h1>RyanJDev</h1>
@@ -93,7 +102,7 @@ const Home = () => {
                             I am Ryan, I am a Web Developer and Student. I have a passion for Development and Technology.
                         </p>
                     </div>
-                    <img src={me} alt="" height="290vh" width="450vw" />
+                    <img src={me} alt="" height="290vh" width="450vw" loading="lazy"/>
                 </div>
 
             </motion.div>

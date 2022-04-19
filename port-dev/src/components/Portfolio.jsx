@@ -4,11 +4,11 @@ import Title from "./Title";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { portfolioAnimation } from "../animation";
-import Microlink from "@microlink/react";
+// import Microlink from "@microlink/react";
 // import placeholder from "assets/placeholder.png";
 // import loadmore from "assets/loadmore.png";
 // import portfolio1 from "assets/portfolio1.png";
-import design1 from '../assets/portfolio1.png';
+// import design1 from '../assets/portfolio1.png';
 
 const Section = styled.section`
     min-height: 100vh;
@@ -19,7 +19,7 @@ const Section = styled.section`
         .design1 {
             position: absolute;
             z-index: 1;
-            right: 8%;
+            right: 5%;
             top: 0;
         }
         .design2 {
@@ -164,8 +164,8 @@ const Portfolio = () => {
         <Section id="portfolio" ref={element} >
             <Title value="portfolio" />
             <div className="background">
-                <img src={design1} alt="design" className="design1" />
-                <img src={" "} alt="design" className="design2" />
+                ${'' /* <img src={" "} alt="design" className="design1" />
+                <img src={" "} alt="design" className="design2" /> */}
             </div>
             <div className="portfolio__title">
                 <p>My Work</p>

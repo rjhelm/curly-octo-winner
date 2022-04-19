@@ -68,12 +68,12 @@ const About = () => {
             image: "https://via.placeholder.com/300x300",
         },
         {
-            type: "Languages | Programs",
+            type: "Programming ",
             text: "I learned to program using HTML, CSS, JavaScript, React, NodeJS, Express, MySQL, and MongoDB. I have since worked with Python, Java, C++, React Native, .NET, and Apache.",
             image: "https://via.placeholder.com/300x300",
         },
         {
-            type: "Tools | Skills",
+            type: "Tools",
             text: "I use InteliJ, Visual Studio Code, and Git. I have experience with AWS and Docker. I use Windows, Mac, and Linux.",
             image: "https://via.placeholder.com/300x300",
         },
