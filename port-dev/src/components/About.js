@@ -5,6 +5,7 @@ import Title  from "./Title";
 import { useScroll } from "./useScroll";
 import { servicesAnimations } from "../animation";
 
+
 const Section = styled.section`
     min-height: 100vh;
   .about {
@@ -30,6 +31,10 @@ const Section = styled.section`
       }
       &__image {
         margin-bottom: 3rem;
+        img {
+          width: 450px;
+          height: 300px;
+        }
       }
       &__title {
         span {
@@ -63,19 +68,19 @@ const About = () => {
     const [element, controls] = useScroll();
     const data = [
         {
-            type: "About Me",
-            text: "I am a Web Developer, I completed the University of Utah Full Stack Web Development Bootcamp. I am also currently in school studying Computer Science. I am a passionate developer and I love to create beautiful websites and applications.",
-            image: "https://via.placeholder.com/300x300",
+            type: "Professional",
+            text: "I am a Web Developer, I completed the University of Utah Full Stack Web Development Bootcamp. I am also currently in school studying Computer Science. I am a passionate developer and I love to create beautiful websites and applications. I have been working full time since I was 16 and have alot of valuable experience. I have been in management, IT, sales, and more",
+            image: "https://github.com/rjhelm/ryan-port-react/blob/main/src/Assets/certification.png?raw=true",
         },
         {
-            type: "Programming ",
-            text: "I learned to program using HTML, CSS, JavaScript, React, NodeJS, Express, MySQL, and MongoDB. I have since worked with Python, Java, C++, React Native, .NET, and Apache.",
-            image: "https://via.placeholder.com/300x300",
+            type: "Programming/Tools",
+            text: "I learned to program using HTML, CSS, JavaScript, React, NodeJS, Express, MySQL, and MongoDB. I have since worked with Python, Java, C++, React Native, .NET, and Apache. I have experience with Git, Heroku, Netifly, and AWS. I use Visual Studio when coding and have used Windows, Linux, and Mac.",
+            image: "https://assets-global.website-files.com/5e9aa66fd3886aa2b4ec01ca/5fd3903b41d20bd2244ec3fd_programminglanguagesstickers.jpg",
         },
         {
-            type: "Tools",
-            text: "I use InteliJ, Visual Studio Code, and Git. I have experience with AWS and Docker. I use Windows, Mac, and Linux.",
-            image: "https://via.placeholder.com/300x300",
+            type: "Personal",
+            text: "I love to code in my free time, learning new and interesting things is super exciting to me, I have been learning more about, AI, blockchain, and game development. I have 3 kids that I love to spend time with. I love video games, basketball, reading, music, and more.",
+            image: "https://github.com/rjhelm/ryan-port-react/blob/main/src/Assets/ryanjdev.png?raw=true",
         },
     ];
     return (

@@ -33,7 +33,7 @@ const Section = styled.section`
     }
   }
   .skills__title {
-    padding: 6rem 10rem;
+    padding: 6rem 6rem;
     p {
       text-transform: uppercase;
       letter-spacing: 0.2rem;
@@ -93,9 +93,9 @@ const Section = styled.section`
     &__content {
       display: flex;
       flex-direction: column;
-      gap: 1rem;
+      gap: 0.7rem;
       color: white;
-      z-index: 2;
+      z-index: 1;
       .title {
         font-weight: bolder;
         letter-spacing: 0.1rem;

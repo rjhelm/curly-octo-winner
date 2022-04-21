@@ -17,8 +17,8 @@ import { iconList } from "./iconList";
 const MainHeading = styled(Typography)``;
 MainHeading.defaultProps = {
     as: "h1",
-    fontWeight: 2,
-    color: "textTitle",
+    
+    color: "white",
     fontSize: [6, null, 10, 11],
     lineHeight: [3, null, 6, 8]
 }
@@ -51,16 +51,15 @@ const Hero = () => {
                         <StaggerWrap childrenDelay={0.2} ease="backInOut">
                             <MainHeading mt={1} mb={["20px", null, "30px", "40px"]}>
                                 <FadeInUpBox yOffset={64} duration={1}>
-                                    Lorem ipsum
+                                    <Typography fontWeight={500} fontSize={[3, null, 4]}>My name is Ryan Helm</Typography>
                                 </FadeInUpBox>
                                 <FadeInUpBox yOffset={64} duration={1}>
-                                    dolor
+                                    <Typography fontWeight={400} fontSize={[3, null, 4]}>Salt Lake City, UT</Typography>
                                 </FadeInUpBox>
                             </MainHeading>
                             <FadeInUpBox yOffset={48} duration={1}>
-                                <Typography fontSize={[4, null, 5]}>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                                    natus, nesciunt quasi minima
+                                <Typography fontWeight={600} color={"white"} fontSize={[4, null, 5]}>
+                                    This is my Web Developer Portfolio, Personal Website, and Blog.
                                 </Typography>
                             </FadeInUpBox>
                         </StaggerWrap>
@@ -70,7 +69,7 @@ const Hero = () => {
                     <GridTemplate>
                         {iconList.map((item, key) =>
                             item !== null ? (
-                                <Box key={key} pt={key % 2 === 0 ? 4 : 0} textAlign="center">
+                                <Box  key={key} pt={key % 2 === 0 ? 4 : 0} textAlign="center">
                                     <ScaleBox duration={1} delayOrder={rand(1, 12)}>
                                         <IconImage src={item.src} alt="" />
                                     </ScaleBox>

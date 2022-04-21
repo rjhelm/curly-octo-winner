@@ -2,6 +2,7 @@ export const iconList = [
     null,
     null,
     null,
+    null,
     {
         src:
             "https://img.icons8.com/offices/100/php-logo.png",
@@ -24,24 +25,27 @@ export const iconList = [
             "https://img.icons8.com/color/100/000000/c-sharp-logo.png"
     },
     null,
-    null,
     {
         src:
         "https://img.icons8.com/color/48/000000/mysql-logo.png"
     },
     null,
     null,
-    
+    null,
     null,
     {
         src:
             "https://img.icons8.com/nolan/100/raspberry-pi.png"
     },
+    null,
     {
         src:
                 "https://img.icons8.com/color/96/000000/javascript--v2.png"
     },
     null,
+    {
+        src: "https://img.icons8.com/color/96/000000/github--v1.png"
+    },
     null,
     null,
     null,
@@ -56,8 +60,10 @@ export const iconList = [
     null,
     null,
     null,
-    null,
-    null,
+    {
+        src:
+            "https://img.icons8.com/color/96/000000/angularjs.png"
+    },
     null,
     {
         src:
@@ -71,12 +77,14 @@ export const iconList = [
     null,
     null,
     null,
+    null,
     {
         src:
             "https://img.icons8.com/color/96/000000/npm.png"
     },
     {
-        src: "https://img.icons8.com/color/96/000000/github--v1.png"
+        src:
+            "https://img.icons8.com/nolan/96/react-native.png"
     },
     null,
     {
@@ -85,26 +93,20 @@ export const iconList = [
     },
     null,
     null,
-    null,
-    {
-        src:
-            "https://img.icons8.com/nolan/96/react-native.png"
-    },
     {
         src:
             "https://img.icons8.com/ios/50/000000/sass.png"
     },
+    null,
+
+    null,
+    null,
     null,
     {
         src:
             "https://img.icons8.com/color/96/000000/graphql.png"
     },
     null,
-    null,
-    {
-        src:
-            "https://img.icons8.com/color/96/000000/angularjs.png"
-    },
     null,
     {
         src:

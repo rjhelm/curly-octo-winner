@@ -6,7 +6,7 @@ import { useScroll } from "./useScroll";
 import { portfolioAnimation } from "../animation";
 // import Microlink from "@microlink/react";
 // import placeholder from "assets/placeholder.png";
-// import loadmore from "assets/loadmore.png";
+import loadmore from "../assets/more.png";
 // import portfolio1 from "assets/portfolio1.png";
 // import design1 from '../assets/portfolio1.png';
 
@@ -183,8 +183,8 @@ const Portfolio = () => {
                     }}
                     whileInView={{ opacity: 1 }}
                 >
-                    
-                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true"  alt="DLRN ICO" />
+
+                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true" alt="DLRN ICO" />
                 </motion.div>
                 <motion.div
                     className="child-two grid-box"
@@ -197,7 +197,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                
+
                     <img src="https://github.com/rjhelm/mtg-social/raw/main/assets/homepage.PNG?raw=true" alt="MTG Social Site" />
                 </motion.div>
                 <motion.div
@@ -211,7 +211,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="Blogging Python app" />
+                    <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="Blogging Python app" />
                 </motion.div>
                 <motion.div
                     className="child-four grid-box"
@@ -250,7 +250,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                <img src="https://github.com/rjhelm/weather-dashboard/raw/main/assets/imgs/weather.PNG" alt="Weather App JS | HTML" />
+                    <img src="https://github.com/rjhelm/weather-dashboard/raw/main/assets/imgs/weather.PNG" alt="Weather App JS | HTML" />
                 </motion.div>
                 <motion.div
                     className="child-seven grid-box"
@@ -278,10 +278,11 @@ const Portfolio = () => {
                 >
                     <img src="https://github.com/rjhelm/pickle-rick/raw/main/ricky-wiki/assets/imgs/homepage.png?raw=true" alt="Rick and Morty Wiki" />
                 </motion.div>
+                
             </div>
             <div className="portfolio-more">
                 <span>Load More</span>
-                <img src={" "} alt="Load More" />
+                <img src={loadmore} alt="Load More" />
             </div>
         </Section>
     );

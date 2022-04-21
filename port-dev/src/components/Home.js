@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import styled from 'styled-components';
-import home from "../assets/home.jpg";
+import home from "../assets/home2.jpg";
 import me from "../assets/ryanjdev.png";
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "../animation";
@@ -38,7 +38,7 @@ const Section = styled.section`
           width: 70%;
           margin-bottom: 2rem;
           font-size: 1.5rem;
-          color: white;
+          color: var(--tertiary-color);
         }
       }
     }
@@ -99,7 +99,7 @@ const Home = () => {
                     </div>
                     <div className="subTitle">
                         <p>
-                            I am Ryan, I am a Web Developer and Student. I have a passion for Development and Technology.
+                            I am a full-stack web developer, graduated from the University of Utah Coding Bootcamp. I am currently in school majoring in Computer Science.
                         </p>
                     </div>
                     <img src={me} alt="" height="290vh" width="450vw" loading="lazy"/>

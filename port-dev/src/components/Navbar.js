@@ -35,7 +35,7 @@ const Nav = styled(motion.nav)`
       gap: 3rem;
       li {
         a {
-          color: white;
+          color: var(--primary-color);
           text-decoration: none;
           font-weight: bold;
           font-size: 1.1rem;
