@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import styled from 'styled-components';
 import home from "../assets/home2.jpg";
-import me from "../assets/ryanjdev.png";
+import me from "../assets/myfunc.png";
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "../animation";
 import Hero from "./Hero/Hero";
@@ -102,7 +102,7 @@ const Home = () => {
                             I am a full-stack web developer, graduated from the University of Utah Coding Bootcamp. I am currently in school majoring in Computer Science.
                         </p>
                     </div>
-                    <img src={me} alt="" height="290vh" width="450vw" loading="lazy"/>
+                    <img src={me} alt="" height="300vh" width="630vw" loading="lazy"/>
                 </div>
 
             </motion.div>

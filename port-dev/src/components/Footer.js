@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { BsBehance, BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
+import { FaLinkedinIn, FaInstagram, FaTwitter, FaGithubAlt } from "react-icons/fa";
 import { useScroll } from "./useScroll";
 import { footerLogoAnimations, footerTextAnimations } from "../animation";
 import { motion } from "framer-motion";
@@ -16,13 +16,16 @@ const Foot = styled.footer`
     display: flex;
     gap: 2rem;
     svg {
-      font-size: 1.4rem;
+      font-size: 2.0rem;
       cursor: pointer;
       transition: 0.5s ease-in-out;
       &:hover {
         color: var(--secondary-color);
       }
     }
+  },
+  .footer__logo {
+    font-size: 2.0rem;
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     padding: 1rem;
@@ -38,6 +41,7 @@ const Footer = () => {
     return (
         <Foot ref={element}>
             <motion.span
+                className="footer__logo"
                 animate={controls}
                 variants={footerTextAnimations}
                 transition={{
@@ -58,10 +62,10 @@ const Footer = () => {
                     duration: 0.8,
                 }}
             >
-                <BsBehance />
-                <BsTwitter />
-                <BsFacebook />
-                <BsYoutube />
+                <FaLinkedinIn />
+                <FaTwitter />
+                <FaGithubAlt />
+                <FaInstagram />
             </motion.div>
         </Foot>
     )

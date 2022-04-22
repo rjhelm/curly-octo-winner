@@ -47,7 +47,9 @@ const Section = styled.section`
   }
   .skills {
     display: flex;
-    padding: 0 20rem;
+    justify-content: center;
+    alignItems: center;
+    padding: 0 30rem;
     gap: 1rem;
     &__bars {
       transform: rotate(-90deg);
@@ -138,48 +140,59 @@ const Section = styled.section`
             }
           }
           h3 {
-            font-size: 1rem;
+            font-size: 1.3rem;
           }
         }
       }
       &__content {
         padding: 0 2rem;
+        p {
+          font-size: 1.4rem;
+        }
       }
     }
   }
 `;
 
 const Skills = () => {
-    const [element, controls] = useScroll();
-    const skillsData = [
-        {
-            name: "Javascript",
-            amount: 90,
-        },
-        {
-            name: "React",
-            amount: 90,
-        },
-        {
-            name: "NodeJS/Express",
-            amount: 80,
-        },
-        {
-            name: "MySQL/MongoDB",
-            amount: 80,
-        },
-        {
-            name: "Python",
-            amount: 70,
-        },
-        {
-            name: "C#",
-            amount: 70,
-        },
-        
-    ];
-    return (
-      <Section id="skills" ref={element}>
+  const [element, controls] = useScroll();
+  const skillsData = [
+    {
+      name: "Javascript",
+      amount: 90,
+    },
+    {
+      name: "React",
+      amount: 90,
+    },
+    {
+      name: "HTML",
+      amount: 90,
+    },
+    {
+      name: "CSS",
+      amount: 90,
+  },
+    {
+      name: "NodeJS",
+      amount: 80,
+    },
+    {
+      name: "MySQL/MongoDB",
+      amount: 80,
+    },
+    {
+      name: "Python",
+      amount: 70,
+    },
+    {
+      name: "C#",
+      amount: 70,
+    },
+
+  ];
+  return (
+    <Section id="skills" ref={element}>
       <Title value="skills" />
       <div className="background">
         {/* <img src={skills1} alt="skills design" className="design1" />
@@ -224,7 +237,7 @@ const Skills = () => {
         </div>
       </div>
     </Section>
-    );
+  );
 }
 
 export default Skills;
