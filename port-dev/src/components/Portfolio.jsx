@@ -168,9 +168,9 @@ const Portfolio = () => {
             <div className="portfolio__title">
                 <p>My Work</p>
                 <h2>Personal, School, and Work Projects</h2>
-                <NavLink to="https://github.com/rjhelm" target="_blank" rel="noopener noreferrer">
+                ${'' /* <NavLink to="https://github.com/rjhelm" target="_blank" rel="noopener noreferrer">
                     <FaGithubSquare size="2.5rem" />
-                </NavLink>
+                </NavLink> */}
             </div>
             <div className="grid">
                 <motion.div

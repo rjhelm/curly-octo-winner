@@ -4,8 +4,7 @@ import Title from "./Title";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { blogsAnimations } from "../animation";
-// import placeholder from "assets/placeholder.png";
-// import play from "assets/play.png";
+import myart from "../assets/myart.png";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -79,22 +78,24 @@ const Blog = () => {
     const [element, controls] = useScroll();
     const blogsData = [
         {
-            title: "Summer trip to mountains",
-            type: "Adeventure",
+            title: "React UI Managment Tool",
+            type: "Programming",
             description:
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores deleniti rem delectus optio harum omnis veniam adipisci ducimus deserunt repudiandae?",
+                "My thoughts on project that I completed to create a UI Management tool for React Components. This project was interesting and let me dive in to some tools that I hadn't used before. The convenience of reuasable components that can be used across projects made this a very worthwhile project.",
+            image: "https://github.com/rjhelm/crispy-system/blob/main/frontend/assets/Screenshot%202022-04-22%20135343.png?raw=true"
         },
         {
-            title: "Flowers purple from sky",
-            type: "Personal",
+            title: "Anime",
+            type: "My Interests",
             description:
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam debitis consectetur ex tempora voluptatum deleniti, officiis dicta eos illo adipisci!",
+                "This blog post goes over my favorite anime. I talk about what I like and don't like about some of the most popular anime. I talk about one of my favorite mange, Tokyo Ghoul, and why I feel that the anime should have stayed true to the source material. Included is some personal artwork from Tokyo Ghoul.",
+                image: myart
         },
         {
-            title: "Rock conert main stage",
-            type: "Music",
-            description:
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea est repudiandae nesciunt mollitia ad molestias dignissimos praesentium fugit reiciendis quis?",
+            title: "Python/Django CMS Project",
+            type: "Programming",
+            description: "I talk about creating a personal CMS and blogging website for myslef using python and Django. The experience while creating the project and the end product that I would like to continue improving and personalizing. I also talk about some of the things I learned about developing with Python along the way and my feeling on Django after using it for the first time in this project",
+            image: "https://github.com/rjhelm/py-cms/blob/main/flackoblog/assets/python-blog.png?raw=true"
         },
     ];
     return (
@@ -102,7 +103,7 @@ const Blog = () => {
             <Title value="Blog" />
             <div className="decoration"></div>
             <div className="blogs">
-                {blogsData.map(({ title, type, description }) => {
+                {blogsData.map(({ title, type, description, image }) => {
                     return (
                         <motion.div
                             className="blog"
@@ -116,8 +117,8 @@ const Blog = () => {
                             }}
                             whileInView={{ opacity: 1, y: 0 }}
                         >
-                            <div className="image">
-                                <img src={" "} alt="Placeholder" />
+                            <div className="image"  >
+                                <img height="300px" width="300px" loading="lazy" src={image} alt="blog posts" />
                             </div>
                             <div className="title">
                                 <h3>{title}</h3>
