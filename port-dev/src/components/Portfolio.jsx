@@ -4,11 +4,7 @@ import Title from "./Title";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { portfolioAnimation } from "../animation";
-// import Microlink from "@microlink/react";
-// import placeholder from "assets/placeholder.png";
 import loadmore from "../assets/more.png";
-// import portfolio1 from "assets/portfolio1.png";
-// import design1 from '../assets/portfolio1.png';
 
 const Section = styled.section`
     min-height: 120vh;
@@ -150,7 +146,8 @@ const Section = styled.section`
                 "five"
                 "six"
                 "seven"
-                "eight";
+                "eight"
+                "two";
             .grid-box {
                 height: 10rem !important;
             }
@@ -164,8 +161,7 @@ const Portfolio = () => {
         <Section id="portfolio" ref={element} >
             <Title value="portfolio" />
             <div className="background">
-                {'' /* <img src={" "} alt="design" className="design1" />
-                <img src={" "} alt="design" className="design2" /> */}
+                {/* design elements not being used but may be implemented at another time */}
             </div>
             <div className="portfolio__title">
                 <p>My Work</p>
@@ -211,7 +207,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="Blogging Python app" />
+                    <img src="https://github.com/rjhelm/python-newsfeed/blob/main/assets/home.png?raw=true" alt="DiscusionBoard Python app" />
                 </motion.div>
                 <motion.div
                     className="child-four grid-box"
@@ -263,7 +259,7 @@ const Portfolio = () => {
                     }}
                     viewport={{ once: true }}
                 >
-                    <img src="https://github.com/rjhelm/snek-game/raw/main/assets/images/screenshot.PNG" alt="Snake Game Javascript" />
+                    <img src="https://user-images.githubusercontent.com/77085453/164585920-3b40f8f2-4259-4fd8-9ba2-22e4d25f514f.png" alt="CMS\Blog Python" />
                 </motion.div>
                 <motion.div
                     className="child-eight grid-box"
@@ -278,7 +274,61 @@ const Portfolio = () => {
                 >
                     <img src="https://github.com/rjhelm/pickle-rick/raw/main/ricky-wiki/assets/imgs/homepage.png?raw=true" alt="Rick and Morty Wiki" />
                 </motion.div>
-                
+                <motion.div
+                    className="child-eight grid-box"
+                    variants={portfolioAnimation}
+                    animate={controls}
+                    transition={{
+                        delay: 0.03,
+                        type: "tween",
+                        duration: 0.8,
+                    }}
+                    viewport={{ once: true }}
+                >
+                    <img src="https://github.com/rjhelm/snek-game/raw/main/assets/images/screenshot.PNG" alt="Snake Game JavaScript" />
+                </motion.div>
+                <motion.div
+                    className="child-eight grid-box"
+                    variants={portfolioAnimation}
+                    animate={controls}
+                    transition={{
+                        delay: 0.3,
+                        type: "tween",
+                        duration: 0.8,
+                    }}
+                    whileInView={{ opacity: 1 }}
+                >
+
+                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true" alt="DLRN ICO" />
+                </motion.div>
+                <motion.div
+                    className="child-one grid-box"
+                    variants={portfolioAnimation}
+                    animate={controls}
+                    transition={{
+                        delay: 0.3,
+                        type: "tween",
+                        duration: 0.8,
+                    }}
+                    whileInView={{ opacity: 1 }}
+                >
+
+                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true" alt="DLRN ICO" />
+                </motion.div>
+                <motion.div
+                    className="child-one grid-box"
+                    variants={portfolioAnimation}
+                    animate={controls}
+                    transition={{
+                        delay: 0.3,
+                        type: "tween",
+                        duration: 0.8,
+                    }}
+                    whileInView={{ opacity: 1 }}
+                >
+
+                    <img src="https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true" alt="DLRN ICO" />
+                </motion.div>
             </div>
             <div className="portfolio-more">
                 <span>Load More</span>
