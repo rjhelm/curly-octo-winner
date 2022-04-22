@@ -49,7 +49,7 @@ const Section = styled.section`
         }
       }
       &__description {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: var(--primary-color);
         margin-bottom: 2rem;
       }

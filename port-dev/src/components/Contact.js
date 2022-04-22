@@ -6,20 +6,22 @@ import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 
 const Section = styled.section`
-  min-height: 100vh;
+  min-height: 80vh;
+  
   .contact {
     color: var(--primary-color);
-    margin: 0 23rem;
+    margin: 0 18rem;
     &__title {
-      margin: 6rem 0;
+      margin: 3rem 0 3rem;
       p {
+        font-size: 1.5rem;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         color: var(--primary-color);
       }
       h2 {
         color: var(--secondary-color);
-        font-size: 2rem;
+        font-size: 2.5rem;
       }
     }
     &__data {
@@ -31,9 +33,10 @@ const Section = styled.section`
         flex-direction: column;
         gap: 1rem;
         h4 {
-          font-size: 1.5rem;
+          font-size: 2.0rem;
         }
         p {
+          font-size: 1.2rem;
           letter-spacing: 0.1rem;
           text-align: justify;
         }
@@ -54,11 +57,12 @@ const Section = styled.section`
         textarea {
           text-transform: uppercase;
           border: none;
-          border-bottom: 0.1rem solid var(--secondary-color);
+          border-bottom: 0.23rem solid var(--secondary-color);
           width: 100%;
           color: var(--secondary-color);
           letter-spacing: 0.2rem;
           padding-bottom: 0.7rem;
+          font-size: 1.2rem;
           &:focus {
             outline: none;
           }
@@ -68,15 +72,17 @@ const Section = styled.section`
           }
         }
         textarea {
+          font-size: 1.2rem;
           width: 100% !important;
           height: 50%;
           resize: none;
         }
         button {
-          width: 100%;
+          width: 50%;
+          font-size: 1.5rem;
           background-color: transparent;
-          border: 0.1rem solid var(--secondary-color);
-          height: 3rem;
+          border: 0.23rem solid var(--secondary-color);
+          height: 3.5rem;
           color: var(--secondary-color);
           text-transform: uppercase;
           letter-spacing: 0.2rem;

@@ -11,7 +11,7 @@ import loadmore from "../assets/more.png";
 // import design1 from '../assets/portfolio1.png';
 
 const Section = styled.section`
-    min-height: 100vh;
+    min-height: 120vh;
     padding: 2rem 0;
     background-color: var(--secondary-color);
     .background {
@@ -164,7 +164,7 @@ const Portfolio = () => {
         <Section id="portfolio" ref={element} >
             <Title value="portfolio" />
             <div className="background">
-                ${'' /* <img src={" "} alt="design" className="design1" />
+                {'' /* <img src={" "} alt="design" className="design1" />
                 <img src={" "} alt="design" className="design2" /> */}
             </div>
             <div className="portfolio__title">

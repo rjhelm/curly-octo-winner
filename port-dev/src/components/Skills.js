@@ -39,6 +39,7 @@ const Section = styled.section`
       letter-spacing: 0.2rem;
       color: #000000;
       text-size: 2rem;
+      font-size: 1.3rem;
     }
     h2 {
       color: white;
@@ -70,7 +71,7 @@ const Section = styled.section`
             text-transform: uppercase;
             letter-spacing: 0.2rem;
             color: #000000;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
           }
           progress {
             width: 30rem;
@@ -93,6 +94,9 @@ const Section = styled.section`
       }
     }
     &__content {
+      p {
+        font-size: 1.3rem;
+      }
       display: flex;
       flex-direction: column;
       gap: 0.7rem;
