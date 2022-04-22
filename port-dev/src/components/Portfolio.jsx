@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 import Title from "./Title";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { portfolioAnimation } from "../animation";
 import loadmore from "../assets/more.png";
+import { FaGithubSquare } from "react-icons/fa";
 
 const Section = styled.section`
     min-height: 120vh;
@@ -166,6 +168,9 @@ const Portfolio = () => {
             <div className="portfolio__title">
                 <p>My Work</p>
                 <h2>Personal, School, and Work Projects</h2>
+                <NavLink to="https://github.com/rjhelm" target="_blank" rel="noopener noreferrer">
+                    <FaGithubSquare size="2.5rem" />
+                </NavLink>
             </div>
             <div className="grid">
                 <motion.div
